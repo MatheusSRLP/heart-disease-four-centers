@@ -1,0 +1,26 @@
+﻿id,centro,passo,ajuste,n_origem,n,positivos,negativos,n_centros,centros_incluidos,sobreposicao_inferior,sobreposicao_superior,estimativa_or,ic95_inf,ic95_sup,estado,observacao,n_codigo_0,positivos_codigo_0,pct_positivos_codigo_0,n_codigo_1,positivos_codigo_1,pct_positivos_codigo_1
+age->num|,Todos,10,"sex, centro",920,920,509,411,4,"Cleveland, Hungria, Suíça, Long Beach VA",31.0,76.0,1.7076621379564243,1.4199509248642184,2.053669550367564,estimada,,,,,,,
+sex->num|,Todos,1,"age, centro",920,920,509,411,4,"Cleveland, Hungria, Suíça, Long Beach VA",,,3.9745219387422304,2.6705985589011534,5.915087682831325,estimada,,194.0,50.0,25.773195876288657,726.0,459.0,63.22314049586777
+chol->num|,Todos,50,"age, sex, centro",920,718,346,372,3,"Cleveland, Hungria, Long Beach VA",100.0,564.0,1.3439387837978853,1.1599122025239736,1.557162215093438,estimada,,,,,,,
+trestbps->num|,Todos,10,"age, sex, centro",920,860,469,391,4,"Cleveland, Hungria, Suíça, Long Beach VA",92.0,190.0,1.1356161264006588,1.0360375183111954,1.2447657191444215,estimada,,,,,,,
+exang->num|,Todos,1,"age, sex, centro",920,865,474,391,4,"Cleveland, Hungria, Suíça, Long Beach VA",,,8.232541977065617,5.648762964758341,11.998157442077574,estimada,,528.0,192.0,36.36363636363637,337.0,282.0,83.67952522255193
+age->num|,Cleveland,10,sex,303,303,139,164,1,Cleveland,35.0,76.0,1.9292196106068766,1.4422303908272485,2.5806475370521853,estimada,,,,,,,
+sex->num|,Cleveland,1,age,303,303,139,164,1,Cleveland,,,4.4766368323972685,2.5387187703228653,7.8938547914179535,estimada,,97.0,25.0,25.773195876288657,206.0,114.0,55.33980582524271
+chol->num|,Cleveland,50,"age, sex",303,303,139,164,1,Cleveland,131.0,409.0,1.2731151591346224,0.9926478515912239,1.6328269948100747,estimada,,,,,,,
+trestbps->num|,Cleveland,10,"age, sex",303,303,139,164,1,Cleveland,100.0,180.0,1.1586841230505842,1.0002064887300586,1.3422717330239557,estimada,,,,,,,
+exang->num|,Cleveland,1,"age, sex",303,303,139,164,1,Cleveland,,,7.130870987416068,3.940334249822798,12.904824264961523,estimada,,204.0,63.0,30.88235294117647,99.0,76.0,76.76767676767676
+age->num|,Hungria,10,sex,294,294,106,188,1,Hungria,31.0,62.0,1.5777520296871952,1.1348326338578831,2.193540609349275,estimada,,,,,,,
+sex->num|,Hungria,1,age,294,294,106,188,1,Hungria,,,4.624803004040088,2.3523762479266566,9.092424243370907,estimada,,81.0,12.0,14.814814814814813,213.0,94.0,44.13145539906103
+chol->num|,Hungria,50,"age, sex",294,271,101,170,1,Hungria,117.0,468.0,1.4021864824832608,1.1378626790675515,1.72791231123774,estimada,,,,,,,
+trestbps->num|,Hungria,10,"age, sex",294,293,106,187,1,Hungria,98.0,190.0,1.1150950670205562,0.9619221214999016,1.2926587097869398,estimada,,,,,,,
+exang->num|,Hungria,1,"age, sex",294,293,106,187,1,Hungria,,,16.592232768062484,8.516131435412602,32.32714176824212,estimada,,204.0,36.0,17.647058823529413,89.0,70.0,78.65168539325843
+age->num|,Suíça,10,sex,123,123,115,8,1,Suíça,38.0,72.0,,,,bloqueada,"Célula vazia em sex por desfecho, com separação.",,,,,,
+sex->num|,Suíça,1,age,123,123,115,8,1,Suíça,,,,,,bloqueada,"Célula vazia em sex por desfecho, com separação.",10.0,10.0,100.0,113.0,105.0,92.92035398230088
+chol->num|,Suíça,50,"age, sex",123,0,0,0,0,,,,,,,bloqueada,Sem positivos e negativos disponíveis.,,,,,,
+trestbps->num|,Suíça,10,"age, sex",123,121,113,8,1,Suíça,95.0,160.0,,,,bloqueada,"Célula vazia em sex por desfecho, com separação.",,,,,,
+exang->num|,Suíça,1,"age, sex",123,122,114,8,1,Suíça,,,,,,bloqueada,"Célula vazia em sex por desfecho, com separação.",68.0,61.0,89.70588235294117,54.0,53.0,98.14814814814815
+age->num|,Long Beach VA,10,sex,200,200,149,51,1,Long Beach VA,38.0,75.0,1.7445536088303804,1.1465596700297915,2.6544342816488773,estimada,célula abaixo de 5 para sex,,,,,,
+sex->num|,Long Beach VA,1,age,200,200,149,51,1,Long Beach VA,,,2.9180679528618065,0.5606118102128194,15.188978224141561,estimada,célula abaixo de 5 para sex,6.0,3.0,50.0,194.0,146.0,75.25773195876289
+chol->num|,Long Beach VA,50,"age, sex",200,144,106,38,1,Long Beach VA,139.0,384.0,1.275989530093213,0.8549137475116211,1.904460286954698,estimada,célula abaixo de 5 para sex,,,,,,
+trestbps->num|,Long Beach VA,10,"age, sex",200,143,111,32,1,Long Beach VA,100.0,180.0,1.15150895771483,0.9045629981959838,1.4658712354384935,estimada,célula abaixo de 5 para sex,,,,,,
+exang->num|,Long Beach VA,1,"age, sex",200,147,115,32,1,Long Beach VA,,,3.894519672723767,1.6751688260941706,9.054182029280314,estimada,célula abaixo de 5 para sex,52.0,32.0,61.53846153846154,95.0,83.0,87.36842105263159
